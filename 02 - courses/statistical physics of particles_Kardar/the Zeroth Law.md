@@ -1,6 +1,6 @@
 If two systems, $A$ and $B$ are separately in equilibrium with a third system $C$, then they are also in equilibrium with one another.
 
-The zeroth law leads to implying the existence of empirical temperature $\Theta$, so the systems in equilibrium are at the same temperature.
+The zeroth law leads to implying the existence of **[[Empirical Temperature|empirical temperature]]** $\Theta$, so the systems in equilibrium are at the same temperature.
 
 The equilibrium of systems $A$, $B$, and $C$ can be described by sets of coordinates $(A_1, A_2,...)$, $(B_1, B_2,...)$, and $(C_1, C_2,...)$. The assumption that $A$ and $C$ are in equilibrium results in the constraint
 
