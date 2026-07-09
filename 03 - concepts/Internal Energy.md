@@ -7,3 +7,5 @@ W=E(\mathrm{X_f})-E(\mathrm{X_i}).
 $$
 
 When the adiabatic constraint is removed, the difference between the change in internal energy and the work is defined as heat.
+
+First introduced in [[1.3 the First Law]].

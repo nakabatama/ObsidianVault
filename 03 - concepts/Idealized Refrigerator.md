@@ -6,4 +6,6 @@ $$
 \omega=\frac{Q_C}{W}=\frac{Q_C}{Q_H-Q_C}.
 $$
 
-The [[Clausius's Statement|Clausius statement]] says that heat cannot be transferred from a colder body to a hotter body as the sole result of a process.
+The [[Clausius Statement|Clausius statement]] says that heat cannot be transferred from a colder body to a hotter body as the sole result of a process.
+
+First introduced in [[1.4 the Second Law]].

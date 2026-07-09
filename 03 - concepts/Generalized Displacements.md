@@ -7,3 +7,5 @@ In a [[Quasi-static Transformation|quasi-static transformation]], they are paire
 $$
 \mathrm{\bar{d}}W=\sum_iJ_i\mathrm{d}x_i.
 $$
+
+First introduced in [[1.3 the First Law]].

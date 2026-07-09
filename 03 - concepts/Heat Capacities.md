@@ -8,3 +8,5 @@ $$
 $$
 C_P=\left(\frac{\mathrm{\bar{d}}Q}{\mathrm{d}T}\right)_P.
 $$
+
+First introduced in [[1.3 the First Law]].

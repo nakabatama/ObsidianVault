@@ -7,3 +7,5 @@ $$
 $$
 
 It follows from the definition of [[Thermodynamic Temperature|thermodynamic temperature]].
+
+First introduced in [[1.5 Carnot Engines]].

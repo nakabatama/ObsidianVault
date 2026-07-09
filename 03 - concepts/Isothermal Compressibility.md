@@ -7,3 +7,5 @@ $$
 $$
 
 It is a [[Response Functions|response function]].
+
+First introduced in [[1.3 the First Law]].

@@ -9,3 +9,5 @@ For an irreversible transformation from $A$ to $B$, it implies
 $$
 S(B)-S(A)\geq \int_A^B\frac{\mathrm{\bar{d}}Q}{T}.
 $$
+
+First introduced in [[1.6 Entropy]].

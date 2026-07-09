@@ -7,3 +7,5 @@ $$
 $$
 
 The [[Kelvin-Planck Statement]] says that a perfect heat engine cannot convert heat from a single reservoir completely into work.
+
+First introduced in [[1.4 the Second Law]].
