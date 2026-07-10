@@ -4,4 +4,4 @@ It rules out a perfect [[Idealized Heat Engine|heat engine]] whose efficiency is
 
 It is equivalent to [[Clausius Statement|Clausius statement]].
 
-First introduced in [[1.4 the Second Law]].
+First introduced at [[Kardar - 1.4 The Second Law]].

@@ -2,4 +2,4 @@ An irreversible transformation is a thermodynamic transformation that cannot be 
 
 Unlike a [[Reversible Transformation|reversible transformation]], it produces entropy. Its heat exchange is constrained by the [[Clausius Inequality|Clausius inequality]].
 
-First introduced in [[1.6 Entropy]].
+First introduced at [[Kardar - 1.6 Entropy]].

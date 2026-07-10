@@ -2,4 +2,4 @@ A quasi-static transformation is performed sufficiently slowly so that the syste
 
 At each stage of the transformation, the thermodynamic coordinates of the system are well defined. This makes it possible to compute work using [[Generalized Displacements|generalized displacements]] and [[Generalized Forces|generalized forces]].
 
-First introduced in [[1.3 the First Law]].
+First introduced at [[Kardar - 1.3 The First Law]].

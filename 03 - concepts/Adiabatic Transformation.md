@@ -2,4 +2,4 @@ An adiabatic transformation is a thermodynamic process in which no heat is excha
 
 For an adiabatically isolated system, the work required to change the state depends only on the initial and final states. This allows the construction of [[Internal Energy|internal energy]] as a [[State Function|state function]].
 
-First introduced in [[1.3 the First Law]].
+First introduced at [[Kardar - 1.3 The First Law]].

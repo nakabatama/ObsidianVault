@@ -2,22 +2,22 @@ A **reversible process** is one that can be run backward in time by simply rever
 
 A **[[Carnot Engine|Carnot engine]]** is any engine that is reversible, runs in a cycle, with all of its heat exchanges taking place at a source temperature $T_{H}$, and a sink temperature $T_{C}$. An engine that runs in a cycle returns to its original internal state at the end of the process. The distinguishing characteristic of the Carnot engine is that heat exchanges with the surroundings are carried out only at two temperatures.
 
-The [[1.2 the Zeroth Law|zeroth law]] allows us to choose two isotherms at temperatures $T_{H}$ and $T_{C}$ for these heat exchanges. To complete the **Carnot cycle**, we have to connect these isotherms by reversible [[Adiabatic Transformation|adiabatic paths]] in the coordinate space. Therefore, a completed Carnot cycle is constructed from two isothermal processes and two adiabatic processes.
+The [[Zeroth Law of Thermodynamics|zeroth law]] allows us to choose two isotherms at temperatures $T_{H}$ and $T_{C}$ for these heat exchanges. To complete the **[[Carnot Cycle|Carnot cycle]]**, we have to connect these isotherms by reversible [[Adiabatic Transformation|adiabatic paths]] in the coordinate space. Therefore, a completed Carnot cycle is constructed from two isothermal processes and two adiabatic processes.
 
-**[[Carnot Theorem|Carnot Theorem]]**. No engine operating between two reservoirs is more efficient that a Carnot engine operating between them.
+**[[Carnot Theorem|Carnot Theorem]]**. No engine operating between two reservoirs is more efficient than a Carnot engine operating between them.
 
-Since a Carnot engine is reversible, it can be run backward as a refrigerator. Consider a non-Carnot engine works between a colder reservoir at temperature $T_{C}$ and a hotter reservoir at temperature $T_{H}$. It takes $Q_{H}$ from the $T_{H}$ reservoir,  converts a proportion of it into work $W$, and dumps $Q_{C}$ into the $T_{C}$ reservoir. Apart from this, use the work $W$ produced by the non-Carnot engine to run a [[Idealized Refrigerator|Carnot refrigerator]] backward. The Carnot refrigerator uses the work $W$ to take $Q_{C}'$ from the $T_{C}$ reservoir and dumps $Q_{H}'$ into the $T_{H}$ reservoir. The net effect of the two machines is to transfer heat equal to $Q=Q_{H}-Q_{H}'=Q_{C}-Q_{C}'$ from $T_{H}$ to $T_{C}$. According to the [[1.4 the Second Law|second law]], more precisely, the [[Clausius Statement|Clausius statement]], $Q$ cannot be negative, so we have
+Since a Carnot engine is reversible, it can be run backward as a refrigerator. Consider a non-Carnot engine working between a colder reservoir at temperature $T_{C}$ and a hotter reservoir at temperature $T_{H}$. It takes $Q_{H}$ from the $T_{H}$ reservoir, converts a proportion of it into work $W$, and dumps $Q_{C}$ into the $T_{C}$ reservoir. Then use the work $W$ produced by the non-Carnot engine to run a [[Idealized Refrigerator|Carnot refrigerator]] backward. The Carnot refrigerator uses the work $W$ to take $Q_{C}'$ from the $T_{C}$ reservoir and dumps $Q_{H}'$ into the $T_{H}$ reservoir. The net effect of the two machines is to transfer heat equal to $Q=Q_{H}-Q_{H}'=Q_{C}-Q_{C}'$ from $T_{H}$ to $T_{C}$. According to the [[Second Law of Thermodynamics|second law]], more precisely, the [[Clausius Statement|Clausius statement]], $Q$ cannot be negative, so we have
 
 $$
-	Q_{H} \geqslant Q_{H}'.
-	\tag{1}
+Q_{H} \geqslant Q_{H}'.
+\tag{1}
 $$
 
 Therefore, the efficiency satisfies
 
 $$
-	\eta'=\frac{W}{Q_{H}'} \leqslant \frac{W}{Q_{H}}=\eta.
-	\tag{2}
+\eta'=\frac{W}{Q_{H}'} \leqslant \frac{W}{Q_{H}}=\eta.
+\tag{2}
 $$
 
 Corollary. All [[Reversible Transformation|reversible engines]] have the same universal efficiency $\eta(T_{H},T_{C})$, since each can be used to run any other backward.
@@ -25,64 +25,64 @@ Corollary. All [[Reversible Transformation|reversible engines]] have the same un
 Consider two reversible engines working between a hotter reservoir at temperature $T_{H}$ and a colder reservoir at temperature $T_{C}$ with efficiencies $\eta_{1}$ and $\eta_{2}$. Suppose, for contradiction, that $\eta_1 \neq \eta_2$. Without loss of generality, assume that $\eta_1 > \eta_2$. Let the $\eta_{1}$ engine take heat $Q_{H1}$ from the $T_{H}$ reservoir, produce work $W$, and reject heat $Q_{C1}$ to the $T_{C}$ reservoir. Use the work $W$ to run the $\eta_{2}$ engine in reverse, which absorbs $Q_{C2}$ from the $T_{C}$ reservoir and rejects $Q_{H2}$ to the $T_{H}$ reservoir. The net effect of the two engines is to transfer $Q=Q_{H2}-Q_{H1}=Q_{C2}-Q_{C1}$ from the colder reservoir to the hotter reservoir. Since $\eta_{1}>\eta_{2}$, we have
 
 $$
-	Q=Q_{H2}-Q_{H1}=\frac{W}{\eta_{2}}-\frac{W}{\eta_{1}}>0.
-	\tag{3}
+Q=Q_{H2}-Q_{H1}=\frac{W}{\eta_{2}}-\frac{W}{\eta_{1}}>0.
+\tag{3}
 $$
 
 Thus the combined device transfers heat from the cold reservoir to the hot reservoir without any net energy input, which violates the second law. Moreover, if we assume $\eta_{1}<\eta_{2}$, by letting the $\eta_{2}$ engine produce work $W$ to run the $\eta_{1}$ engine in reverse, we can get the same result. Therefore, it must be $\eta_{1}=\eta_{2}$.
 
-According to the corollary, we know that independent of the material used, and the construction and design, all cyclic and reversible engines have the same maximum theoretical efficiency. Moreover, the efficiency only depends on the temperatures of the two reservoirs. Therefore, a temperature scale can be constructed based on this property, which is independent of the working substance.
+According to the corollary, independent of the material used, and the construction and design, all cyclic and reversible engines have the same maximum theoretical efficiency. Moreover, the efficiency only depends on the temperatures of the two reservoirs. Therefore, a temperature scale can be constructed based on this property, which is independent of the working substance.
 
 Consider two Carnot engines working in series. One works between reservoirs at [[Empirical Temperature|empirical temperatures]] $\Theta_{1}$ and $\Theta_{2}$, and the other works between the reservoir at empirical temperature $\Theta_{2}$ and another reservoir at empirical temperature $\Theta_{3}$. The temperatures satisfy $\Theta_{1}>\Theta_{2}>\Theta_{3}$. It is worth noting that the three temperatures introduced here should be understood as empirical temperature labels, not yet thermodynamic temperatures. The first engine absorbs heat $Q_{1}$ from the $\Theta_{1}$ reservoir, produces work $W_{12}$, and rejects heat $Q_{2}$ to the $\Theta_{2}$ reservoir. The second engine absorbs heat $Q_{2}$ from the $\Theta_{2}$ reservoir, produces work $W_{23}$, and rejects heat $Q_{3}$ to the $\Theta_{3}$ reservoir. The combination of the two engines is equivalent to a new Carnot engine, which absorbs heat $Q_{1}$ from the $\Theta_{1}$ reservoir, produces work $W_{13}=W_{12}+W_{23}$, and rejects heat $Q_{3}$ to the $\Theta_{3}$ reservoir.
 
 The efficiencies of the three engines can be calculated as
 
 $$
-\left\{  
-\begin{aligned}  
-\eta(\Theta_{1},\Theta_{2}) &= \frac{W_{12}}{Q_{1}}=1-\frac{Q_{2}}{Q_{1}}, \\  
-\eta(\Theta_{2},\Theta_{3}) &= \frac{W_{23}}{Q_{2}}=1-\frac{Q_{3}}{Q_{2}}, \\  
-\eta(\Theta_{1},\Theta_{3}) &= \frac{W_{13}}{Q_{1}}=1-\frac{Q_{3}}{Q_{1}}. 
-\end{aligned}  
+\left\{
+\begin{aligned}
+\eta(\Theta_{1},\Theta_{2}) &= \frac{W_{12}}{Q_{1}}=1-\frac{Q_{2}}{Q_{1}}, \\
+\eta(\Theta_{2},\Theta_{3}) &= \frac{W_{23}}{Q_{2}}=1-\frac{Q_{3}}{Q_{2}}, \\
+\eta(\Theta_{1},\Theta_{3}) &= \frac{W_{13}}{Q_{1}}=1-\frac{Q_{3}}{Q_{1}}.
+\end{aligned}
 \right.
-\tag4
+\tag{4}
 $$
 
 Note that
 
-$$  
-\frac{Q_{3}}{Q_{1}}=\frac{Q_{3}}{Q_{2}} \frac{Q_{2}}{Q_{1}}.  
-\tag{5}  
+$$
+\frac{Q_{3}}{Q_{1}}=\frac{Q_{3}}{Q_{2}} \frac{Q_{2}}{Q_{1}}.
+\tag{5}
 $$
 
 We obtain
 
-$$  
-1-\eta \left( \Theta_{1},\Theta_{3} \right)=\left( 1-\eta \left( \Theta_{2},\Theta_{3} \right) \right)\left( 1-\eta \left( \Theta_{1},\Theta_{2} \right) \right).  
-\tag{6}  
+$$
+1-\eta \left( \Theta_{1},\Theta_{3} \right)=\left( 1-\eta \left( \Theta_{2},\Theta_{3} \right) \right)\left( 1-\eta \left( \Theta_{1},\Theta_{2} \right) \right).
+\tag{6}
 $$
 
 Therefore, $1-\eta$ must have the structure of a ratio between two functions of temperature, as
 
-$$  
-1-\eta \left( \Theta_{H},\Theta_{C} \right)=\frac{f\left( \Theta_{C} \right) }{f\left( \Theta_{H} \right) }.  
-\tag{7}  
+$$
+1-\eta \left( \Theta_{H},\Theta_{C} \right)=\frac{f\left( \Theta_{C} \right) }{f\left( \Theta_{H} \right) }.
+\tag{7}
 $$
 
 By convention and for simplicity, we define the **[[Thermodynamic Temperature|thermodynamic temperature]]** $T$ as
 
-$$  
-T=C f\left( \Theta \right),  
-\tag8
+$$
+T=C f\left( \Theta \right),
+\tag{8}
 $$
 
 where $C$ is a positive constant fixed by choosing a reference point, such as the triple point of water. Therefore, we obtain
 
 $$
-	\frac{Q_{C}}{Q_H}=\frac{T_{C}}{T_{H}},  
-    \tag{9}  
+\frac{Q_{C}}{Q_H}=\frac{T_{C}}{T_{H}},
+\tag{9}
 $$
 
-which is known as **Carnot relation**.
+which is known as **[[Carnot Relation|Carnot relation]]**.
 
-Thermodynamic temperature is all positive. Since if we set $T_{C}$ is negative and $T_{H}$ is positive, the engine absorbs heat from both reservoirs and converts it into work, which violates [[Kelvin-Planck Statement|Kelvin statement]] of the second law.
+Thermodynamic temperature is always positive. If $T_{C}$ were negative and $T_{H}$ positive, the engine would absorb heat from both reservoirs and convert it into work, which violates the [[Kelvin-Planck Statement|Kelvin statement]] of the second law.

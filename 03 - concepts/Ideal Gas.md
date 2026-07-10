@@ -6,4 +6,4 @@ $$
 
 For a fixed amount of gas, $PV\propto T$, and its [[Internal Energy|internal energy]] depends only on temperature.
 
-First introduced in [[1.3 the First Law]].
+First introduced at [[Kardar - 1.3 The First Law]].

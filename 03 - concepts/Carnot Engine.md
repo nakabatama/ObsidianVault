@@ -4,4 +4,4 @@ Its distinguishing feature is that all heat exchanges take place at two fixed te
 
 A Carnot engine can be run backward as a [[Idealized Refrigerator|refrigerator]].
 
-First introduced in [[1.5 Carnot Engines]].
+First introduced at [[Kardar - 1.5 Carnot Engines]].

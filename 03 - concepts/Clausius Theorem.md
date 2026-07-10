@@ -6,4 +6,4 @@ $$
 
 The equality holds for a [[Reversible Transformation|reversible]] cycle.
 
-First introduced in [[1.6 Entropy]].
+First introduced at [[Kardar - 1.6 Entropy]].

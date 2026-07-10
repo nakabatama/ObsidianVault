@@ -4,4 +4,4 @@ It is constructed from two isothermal processes and two [[Reversible Transformat
 
 The two isothermal processes occur at temperatures $T_H$ and $T_C$.
 
-First introduced in [[1.5 Carnot Engines]].
+First introduced at [[Kardar - 1.5 Carnot Engines]].

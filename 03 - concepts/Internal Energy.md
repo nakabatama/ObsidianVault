@@ -8,4 +8,4 @@ $$
 
 When the adiabatic constraint is removed, the difference between the change in internal energy and the work is defined as heat.
 
-First introduced in [[1.3 the First Law]].
+First introduced at [[Kardar - 1.3 The First Law]].

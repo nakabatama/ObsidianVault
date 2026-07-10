@@ -12,4 +12,4 @@ $$
 1-\eta=\frac{Q_C}{Q_H}=\frac{T_C}{T_H}.
 $$
 
-First introduced in [[1.5 Carnot Engines]].
+First introduced at [[Kardar - 1.5 Carnot Engines]].

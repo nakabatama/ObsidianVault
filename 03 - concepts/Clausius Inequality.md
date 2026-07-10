@@ -4,10 +4,10 @@ $$
 \oint \frac{\mathrm{\bar{d}}Q}{T}\leq 0.
 $$
 
-For an irreversible transformation from $A$ to $B$, it implies
+For an ==irreversible transformation== from $A$ to $B$, it implies
 
 $$
 S(B)-S(A)\geq \int_A^B\frac{\mathrm{\bar{d}}Q}{T}.
 $$
 
-First introduced in [[1.6 Entropy]].
+First introduced at [[Kardar - 1.6 Entropy]].

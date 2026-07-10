@@ -8,4 +8,4 @@ $$
 \mathrm{\bar{d}}W=\sum_iJ_i\mathrm{d}x_i.
 $$
 
-First introduced in [[1.3 the First Law]].
+First introduced at [[Kardar - 1.3 The First Law]].

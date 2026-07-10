@@ -6,4 +6,4 @@ $$
 
 Here $\mathbf{N}$ lists the particle numbers of the different species and $\boldsymbol{\mu}$ lists their [[Chemical Potential|chemical potentials]].
 
-First introduced in [[1.7 Approach to Equilibrium and the Thermodynamic Potentials]].
+First introduced at [[Kardar - 1.7 Approach to Equilibrium and the Thermodynamic Potentials]].

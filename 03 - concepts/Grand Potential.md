@@ -6,4 +6,4 @@ $$
 
 It is the appropriate thermodynamic potential for a system at fixed temperature and fixed [[Chemical Potential|chemical potentials]] when no mechanical external work is performed.
 
-First introduced in [[1.7 Approach to Equilibrium and the Thermodynamic Potentials]].
+First introduced at [[Kardar - 1.7 Approach to Equilibrium and the Thermodynamic Potentials]].

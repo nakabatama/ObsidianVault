@@ -1,4 +1,4 @@
-The Carnot relation connects the efficiency of a Carnot engine with the thermodynamic temperatures of the two reservoirs.
+The Carnot relation connects the efficiency of a ==Carnot engine== with the ==thermodynamic temperatures== of the two reservoirs.
 
 It is given by
 
@@ -8,4 +8,4 @@ $$
 
 It follows from the definition of [[Thermodynamic Temperature|thermodynamic temperature]].
 
-First introduced in [[1.5 Carnot Engines]].
+First introduced at [[Kardar - 1.5 Carnot Engines]].

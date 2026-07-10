@@ -10,4 +10,4 @@ $$
 \mathrm{d}S=\frac{\mathrm{\bar{d}}Q}{T}.
 $$
 
-First introduced in [[1.6 Entropy]].
+First introduced at [[Kardar - 1.6 Entropy]].

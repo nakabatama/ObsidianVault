@@ -2,4 +2,4 @@ A cyclic transformation is a thermodynamic transformation in which the system re
 
 For a cyclic transformation, the net change of any [[State Function|state function]] is zero.
 
-First introduced in [[1.6 Entropy]].
+First introduced at [[Kardar - 1.6 Entropy]].

@@ -6,4 +6,4 @@ $$
 \mathrm{\bar{d}}W_N=\sum_i\mu_i\,\mathrm{d}N_i.
 $$
 
-First introduced in [[1.7 Approach to Equilibrium and the Thermodynamic Potentials]].
+First introduced at [[Kardar - 1.7 Approach to Equilibrium and the Thermodynamic Potentials]].

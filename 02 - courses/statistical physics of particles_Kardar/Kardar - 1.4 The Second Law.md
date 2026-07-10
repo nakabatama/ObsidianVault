@@ -1,19 +1,20 @@
-The second law derives from understanding of heat engines,
+The second law is derived from the understanding of heat engines.
+
 An **[[Idealized Heat Engine|idealized heat engine]]** works by taking a certain amount of heat $Q_{H}$ from a heat source, converting a portion of it to work $W$, and dumping the remaining heat into a heat sink. Its efficiency can be calculated by
 
 $$
-\eta = \frac{W}{Q_{H}} = \frac{Q_{H}-Q_{C}}{Q_{H}} = 1-\frac{Q_{H}}{Q_{C}}\leqslant 1 
+\eta = \frac{W}{Q_{H}} = \frac{Q_{H}-Q_{C}}{Q_{H}} = 1-\frac{Q_{C}}{Q_{H}}\leqslant 1
 \tag{1}
 $$
 
 An **[[Idealized Refrigerator|idealized refrigerator]]** works by using work $W$ to extract heat $Q_{C}$ from a cold system and dumping both the work $W$ and the heat $Q_{C}$ as heat $Q_{H}$ at a higher temperature. The figure of merit for the performance of a refrigerator is defined as
 
 $$
-	\omega=\frac{Q_{C}}{W}=\frac{Q_{C}}{Q_{H}-Q_{C}}
-	\tag{2}
+\omega=\frac{Q_{C}}{W}=\frac{Q_{C}}{Q_{H}-Q_{C}}
+\tag{2}
 $$
 
-The first law rules out "[[Perpetual Motion Machines of the First Kind|perpetual motion machine of the first kind]]", which can produce work without consuming any energy. However, the conservation of energy is not violated by an engine, for example, which produces work by using the energy released when water freezes into ice. This kind of engine is called "perpetual motion machine of the second kind", and its feasibility would still be constrained by the second law. 
+The [[First Law of Thermodynamics|first law]] rules out "[[Perpetual Motion Machines of the First Kind|perpetual motion machine of the first kind]]", which can produce work without consuming any energy. However, the conservation of energy is not violated by an engine, for example, which produces work by using the energy released when water freezes into ice. This kind of engine is called "[[Perpetual Motion Machines of the Second Kind|perpetual motion machine of the second kind]]", and its feasibility would still be constrained by the [[Second Law of Thermodynamics|second law]].
 
 The observation that the natural direction of the flow of heat is from hotter to colder bodies is the essence of the second law of thermodynamics. The second law has several different statements, such as the following two statements.
 

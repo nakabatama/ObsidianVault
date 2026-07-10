@@ -8,4 +8,4 @@ $$
 
 The [[Clausius Statement|Clausius statement]] says that heat cannot be transferred from a colder body to a hotter body as the sole result of a process.
 
-First introduced in [[1.4 the Second Law]].
+First introduced at [[Kardar - 1.4 The Second Law]].

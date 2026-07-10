@@ -1,0 +1,107 @@
+**[[Clausius Theorem]]**. For any **[[Cyclic Transformation|cyclic transformation]]**, whether reversible or not, the relation
+
+$$
+\oint \frac{\mathrm{\bar{d}}Q}{T}\leq 0
+\tag{1}
+$$
+
+holds, where $\mathrm{\bar{d}}Q$ denotes the infinitesimal amount of heat supplied to the system at temperature $T$.
+
+Subdivide the cycle into a series of transformations in which the system exchanges energy in the form of heat $\mathrm{\bar{d}}Q$ and work $\mathrm{\bar{d}}W$. The system need not be in equilibrium at each interval. During the process, the system may exchange heat at different locations, at different times, and with different local temperatures $T_{i}$. For each infinitesimal heat exchange $\mathrm{\bar{d}}Q_{i}$, one may connect the part of the system at local temperature $T_{i}$ to the $i$-th [[Carnot Engine|Carnot engine]] which exchanges the heat $\mathrm{\bar{d}}Q_{i}$ with it, produces work $\mathrm{\bar{d}}W_{Ei}$, and absorbs heat $\mathrm{\bar{d}}Q_{Ei}$ from a common reference reservoir at temperature $T_{0}$.
+
+Therefore, for each Carnot engine, the [[Carnot Relation|Carnot relation]] gives
+
+$$
+\frac{\mathrm{\bar{d}}Q_{Ei}}{T_{0}}=\frac{\mathrm{\bar{d}}Q_{i}}{T_{i}}.
+\tag{2}
+$$
+
+Since all these Carnot engines are connected to a common reference reservoir at temperature $T_{0}$, the heat exchanged with the reservoir can be added directly as
+
+$$
+Q_{E}=\sum_{i}T_{0} \frac{\mathrm{\bar{d}}Q_{i}}{T_{i}},
+\tag{3}
+$$
+
+which is the total heat exchanged between these Carnot engines and the reference reservoir during the cycle. In the continuous limit, it becomes
+
+$$
+Q_{E}=T_{0}\oint \frac{\mathrm{\bar{d}}Q}{T}.
+\tag{4}
+$$
+
+The net work converted by the Carnot engines and the system can be written as $W=Q_{E}$. If $Q_{E}>0$, the combined effect of the system and all the Carnot engines is merely absorbing heat $Q_{E}$ and converting it into work $W$, which violates the [[Kelvin-Planck Statement|Kelvin statement]] of the [[Second Law of Thermodynamics|second law]]. Therefore, the constraint $Q_{E}\leq0$ must hold. Since $T_{0}>0$, we obtain
+
+$$
+\oint \frac{\mathrm{\bar{d}}Q}{T}\leq 0,
+\tag{5}
+$$
+
+which is known as the **[[Clausius Inequality|Clausius inequality]]**.
+
+For a completed reversible cycle, we have $\oint \mathrm{\bar{d}}Q/T=0$. Consider two points $A$ and $B$ on the cycle, and use $\Gamma_{1}$ and $\Gamma_{2}$ to denote the two paths between $A$ and $B$. The closed cycle can be formed by following $\Gamma_{1}$ from $A$ to $B$ and then following $\Gamma_{2}$ from $B$ to $A$. Therefore, we have
+
+$$
+\oint \frac{\mathrm{\bar{d}}Q}{T}=\int_{A\to B,\Gamma_{1}} \frac{\mathrm{\bar{d}}Q}{T}+\int_{B\to A,\Gamma_{2}} \frac{\mathrm{\bar{d}}Q}{T}=\int_{A\to B,\Gamma_{1}} \frac{\mathrm{\bar{d}}Q}{T}+\int_{A\to B,\Gamma_{2}} \left( -\frac{\mathrm{\bar{d}}Q}{T} \right) =0.
+\tag{6}
+$$
+
+Since reversing the direction of integration changes the sign, we obtain
+
+$$
+\int_{A\to B,\Gamma_{1}}\frac{\mathrm{\bar{d}}Q}{T}=\int_{A\to B,\Gamma_{2}}\frac{\mathrm{\bar{d}}Q}{T}.
+\tag{7}
+$$
+
+Thus, for [[Reversible Transformation|reversible transformations]], we find that the integral $\int \mathrm{\bar{d}}Q / T$ between two equilibrium states is independent of the path. Therefore, it defines a new state function $S$, known as **[[Entropy|entropy]]**, which satisfies
+
+$$
+S(B)-S(A)=\int_{A}^B \frac{\mathrm{\bar{d}}Q}{T}
+\tag{8}
+$$
+
+and
+
+$$
+\mathrm{d}S=\frac{\mathrm{\bar{d}}Q}{T}.
+\tag{9}
+$$
+
+Using [[Entropy|entropy]], we can now calculate the heat exchanged during a reversible transformation from $\mathrm{\bar{d}}Q=T\mathrm{d}S$ and construct reversible adiabatic curves for a general system since $\mathrm{\bar{d}}Q=0$ leads to $\mathrm{d}S=0$. Since a reversible process is quasi-static, it can be represented as a continuous path on the equilibrium manifold. According to the [[First Law of Thermodynamics|first law]], we obtain
+
+$$
+\mathrm{d}E=\mathrm{\bar{d}}Q+\mathrm{\bar{d}}W=T\mathrm{d}S+\sum_{i}J_{i}\mathrm{d}x_{i}.
+\tag{10}
+$$
+
+Here $\mathrm{d}E$ is the exact differential of the equilibrium state function $E$, and $J_{i}$ stands for the equilibrium value common to the externally applied generalized force and the corresponding internal generalized force during reversible transformations.
+
+Note that $S$ and $T$ appear as a pair of conjugate variables, with $S$ playing the role of a [[Generalized Displacements|displacement]], and $T$ playing the role of the [[Generalized Forces|conjugate force]]. In particular, for an ideal gas, we have
+
+$$
+\mathrm{d}E=T\mathrm{d}S-P\mathrm{d}V.
+\tag{11}
+$$
+
+Consider a cyclic transformation consisting of an irreversible path $\Gamma_{1}$ from $A$ to $B$ and a reversible path from $B$ to $A$. We have
+
+$$
+\oint \frac{\mathrm{\bar{d}}Q}{T}=\int_{A\to B,\Gamma_{1}} \frac{\mathrm{\bar{d}}Q}{T}+\int_{B\to A,\Gamma_{2}} \frac{\mathrm{\bar{d}}Q}{T}=\int_{A\to B,\Gamma_{1}} \frac{\mathrm{\bar{d}}Q}{T}+\int_{A\to B,\Gamma_{2}} \left( -\frac{\mathrm{\bar{d}}Q}{T} \right) \leq0.
+\tag{12}
+$$
+
+Then
+
+$$
+S(B)-S(A)=\int_{A\to B,\Gamma_{2}} \frac{\mathrm{\bar{d}}Q}{T} \geq \int_{A\to B,\Gamma_{1}} \frac{\mathrm{\bar{d}}Q}{T}.
+\tag{13}
+$$
+
+In other words, for an **[[Irreversible Transformation|irreversible transformation]]** from $A$ to $B$, the inequality
+
+$$
+S(B)-S(A) \geq \int_{A}^{B} \frac{\mathrm{\bar{d}}Q}{T}
+\tag{14}
+$$
+
+holds. In differential form, this inequality implies $\mathrm{d}S \geq \mathrm{\bar{d}}Q / T$. In particular, consider a number of subsystems, each of which is initially in equilibrium. As they come to a state of joint equilibrium, we obtain $\mathrm{\bar{d}}Q=0$. Thus, for this process $\Delta S\geq0$. As a result, an isolated system attains a maximum value of entropy in equilibrium, because internal spontaneous changes only increase the entropy.

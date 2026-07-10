@@ -4,4 +4,4 @@ It rules out a perfect [[Idealized Refrigerator|refrigerator]] whose work input 
 
 It is equivalent to the [[Kelvin-Planck Statement]].
 
-First introduced in [[1.4 the Second Law]].
+First introduced at [[Kardar - 1.4 The Second Law]].
